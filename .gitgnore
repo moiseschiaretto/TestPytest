@@ -1,8 +1,8 @@
 # gitgnore
-/venv/
+/.venv/
+/.pytest_cache/
+/.idea/
+/steps/__pycache__/
 /steps/assets/
 /steps/evidencias/
 /steps/report.html/
-/.pytest_cache/
-/steps/__pycache__/
-/.idea/
