@@ -1,0 +1,5 @@
+# gitgnore
+/venv/
+/steps/assets/
+/steps/evidencias/
+/steps/report.html/
