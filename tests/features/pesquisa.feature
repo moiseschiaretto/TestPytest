@@ -1,4 +1,3 @@
-# pesquisa.feature
 Feature: Pesquisar
     O usuário realizar duas pesquisas no blog "https://blogdoagi.com.br"
 

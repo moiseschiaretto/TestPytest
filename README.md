@@ -112,7 +112,7 @@ Corrigir a sintaxe do código 'Python', no arquivo **[teste1_numeros_multiplos_3
 - Mas para múltiplos de três imprima "Fizz", em vez do número.
 - E para múltiplos de cinco imprima "Buzz".
 - Para números múltiplos de três e cinco, imprima "FizzBuzz".
-- 
+
 ```
 x mod 3 = Fizz
 x mod 5 = Buzz
