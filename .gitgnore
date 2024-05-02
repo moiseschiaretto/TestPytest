@@ -3,3 +3,6 @@
 /steps/assets/
 /steps/evidencias/
 /steps/report.html/
+/.pytest_cache/
+/steps/__pycache__/
+/.idea/
