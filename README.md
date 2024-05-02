@@ -56,7 +56,7 @@ Constam todos os diretórios e arquivos que devem serem ignorados ao subir o có
 /steps/__pycache__/
 /steps/assets/
 /steps/evidencias/
-/steps/report.html/
+/steps/report.html
 
 6) Diretórios './tests/features/' constam os arquivos '*.feature' que contém as 'funcionalidades e cenários do BDD'.
  Arquivo [pesquisa.feature]
