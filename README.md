@@ -42,7 +42,7 @@ pytest-html>=4.1.1
 Projeto que contém todas informações do projeto, e consta o diretório 'Lib' com todas as dependências / bilioteclas udadas no projeto, para facilitar a manutenção ou uso do projeto por outro DEV/QA temos consta o arquivo 'requeriments.txt' com as bibliotecas necessárias para serem instaladas referente ao projeto. 
 
 ## Arquivo 'pytest.ini'
-Constam o caminho dos arquivos '.feature' referente a funcionalidade e cenários do BDD.
+Constam os caminhos dos arquivos '.feature' referente a funcionalidade e os cenários do BDD.
 E o caminho dos arquivos 'test_*.py' de execução dos métodos da 'feature do BDD'.
 
 ```
@@ -52,7 +52,7 @@ bdd_features_base_dir = tests\features\
 ```
 
 ## Arquivo '.gitignore'
-Constam todos os diretórios e arquivos que devem serem ignorados ao subir o código para o git (controle de versão).
+Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o código para o git (controle de versão).
 
 ```
 /.venv/
@@ -65,7 +65,7 @@ Constam todos os diretórios e arquivos que devem serem ignorados ao subir o có
 ```
 
 ## Diretórios './tests/features/' 
-Constam os arquivos '*.feature' que contém as 'funcionalidades e cenários do BDD', **arquivo [pesquisa.feature]**
+Constam os arquivos '*.feature' que contém as 'funcionalidades e os cenários do BDD', **arquivo [pesquisa.feature]**
 
 ## Diretório './steps/' 
 Constam os arquivos 'test_*.py' que contém em cada arquivo os métodos (código) relacionados a 'funcionalidade e os cenários do BDD', **arquivo [test_pesquisa.py]**
@@ -79,7 +79,7 @@ Com esta biblioteca não há necessidade de uso da biblioteca do 'selenium.webdr
 **Por exemplo, e tendo que substituir estes arquivos no projeto a cada nova versão liberada do navegador Web.**
 
 ## Diretório './steps/evidencias/' 
-Contém os 'screenshot', ou seja, as capturas de telas para evidenciar os testes realizados de forma automática, arquivos de evidências:
+Contém os 'screenshots', ou seja, as capturas de telas para evidenciar os testes realizados de forma automática, os arquivos de evidências:
 - 01_img_bloagi.png
 - 02_img_pesquisa_teste.png
 - 03_img_resultado_pesquisa_teste.png
@@ -91,14 +91,14 @@ Será criado ao gerar o relatório 'report.html' da execução dos testes com o 
 
 ## Arquivo 'report.html' 
 Contém o relatório do resultado da execução dos testes, para abrir este arquivo:
-- Clicar com o botão direito do mouses sobre o arquivo 'report.html'.
+- Clicar com o botão direito do mouse sobre o arquivo 'report.html'.
 - Opção 'Open in' (IDE PyCharm)
 - Selecionar:
 - "Explorer" para visualizar o arquivo 'report.html' no diretório gerado.
 - "Browser" para visualizar o arquivo 'report.html' direto em um dos navegadores: Chrome, Firefox, Edge (por exemplo).
 
 ## Passos para gerar o relatório 'report.html'
-A biblioteca 'pytest-html' informada no arquivo 'requeriments.txt' para a instalação.
+A biblioteca 'pytest-html' é informada no arquivo 'requeriments.txt' para a instalação, digitar os seguintes comandos no terminal da IDE PyCharm para a geração do relatório, **arquivo 'report.html:** 
 
 ```
 pip install pytest-html
