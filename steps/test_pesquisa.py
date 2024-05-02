@@ -1,4 +1,3 @@
-# test_pesquisa.py
 from pytest_bdd import scenarios, scenario, given, when, then, parsers
 import time
 
