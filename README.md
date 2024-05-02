@@ -48,7 +48,7 @@ E o caminho dos arquivos 'test_*.py' de execução dos métodos da 'feature do B
 python_files = test_*.py
 bdd_features_base_dir = tests\features\
 
-5) Arquivo '.gitgnore'
+5) Arquivo '.gitignore'
 Constam todos os diretórios e arquivos que devem serem ignorados ao subir o código para o git (controle de versão).
 /.venv/
 /.pytest_cache/
@@ -95,7 +95,6 @@ pip install pytest-html
 pytest test_pesquisa.py
 pytest --html=report.html
 
-########################
 13) Teste 1 (um) do site, corrigir a sintaxe do código 'Python', no arquivo [teste1_numeros_multiplos_3_5_15.py]
 Escreva um programa que imprima os números de 1 a 100. Mas para múltiplos de três imprima "Fizz"
 em vez do número e para múltiplos de cinco imprima "Buzz".
@@ -103,4 +102,4 @@ Para números múltiplos de três e cinco, imprima "FizzBuzz".
 x mod 3 = Fizz
 x mod 5 = Buzz
 x mod 15 = FizzBuzz
-########################
+
