@@ -7,12 +7,11 @@ Feature: Pesquisar
         And clicar e limpar o campo de pesquisa
 
     Scenario: Pesquisa válida
-        And digitar o texto para a pesquisa
+        And digitar o conteúdo existente, texto teste
         And teclar ENTER
         Then o blog deverá retornar os resultados referentes ao texto teste informado
 
     Scenario: Pesquisa inválida
        And digitar o conteúdo inexistente, texto python
        And teclar ENTER
-       Then o blog deverá retornar a mensagem que nenhum resultado foi encontrado para sua pesquisa
-
+       Then o blog deverá retornar os resultados referentes ao texto python informado

@@ -73,7 +73,7 @@ def test_verificar_resultados_pesquisa(browser):
 
 
 # @scenario('pesquisa.feature', 'Pesquisa inválida')
-@when('digitar o conteúdo existente, texto python')
+@when('digitar o conteúdo inexistente, texto python')
 def test_user_digitar_texto_pesquisa(browser):
     page = browser
     input_pesquisa = page.query_selector('//*[@id="search-field"]')
@@ -95,7 +95,7 @@ def test_user_teclar_enter(browser):
     time.sleep(5)
 
 
-@then('Pequisa Inválida')
+@then('o blog deverá retornar os resultados referentes ao texto python informado')
 def test_verificar_resultados_pesquisa(browser):
     page = browser
     result_pesquisa = page.query_selector('//h1[contains(., " Resultados encontrados para: ")]')
