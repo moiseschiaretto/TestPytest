@@ -3,6 +3,10 @@
 - Descrição das explicações de cada item da 'estrutura do projeto "TestBlogAgi" desenvolvido'.
 - Python, Pytest, Playwright
 
+![04_Python](https://github.com/moiseschiaretto/TestPytest/assets/84775466/a33657b9-3add-4f80-91d8-7fe1fe2d2463)
+
+![05_Playwrigth](https://github.com/moiseschiaretto/TestPytest/assets/84775466/a06619a2-ffc6-4213-b808-35fcb44f75fc)
+
 ## Estrutura do Projeto "TestBlogAgi"
 
 ```     .
