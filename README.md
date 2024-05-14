@@ -100,9 +100,8 @@ Feature: Pesquisar
 
 - Escreve um cenário que passe **"Green"** e um cenário que falhe **"Red"**.
 
-![18_TDD](https://github.com/moiseschiaretto/TestPytest/assets/84775466/738d2c6e-03f3-4686-a12f-4d8eb2aec225)
 
-![TDD_RGR_IMG_MENOR](https://github.com/moiseschiaretto/TestPytest/assets/84775466/d1b8699e-6a28-4dd5-b9c4-bb62f06e4b77)
+![BDD_SEM_E_COM_FALHA](https://github.com/moiseschiaretto/TestPytest/assets/84775466/7c384207-7d94-4b27-9b08-ed2866e56d31)
 
 
 ## Diretório './steps/' 
