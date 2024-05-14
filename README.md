@@ -10,26 +10,30 @@
 
 ## Estrutura do Projeto "TestBlogAgi"
 
-```     .
-        |
-        |-----requeriments.txt
-        |-----.venv
-        |-----pytest.ini
-        |-----.gitgnore
-        |-----README.md
-        |
-        |_____steps
-        |       |____assets
-        |       |____evidencias
-        |       |____conftest.py
-        |       |____test_pesquisa.py
-        |       |____report.html
-        |       
-        |-----tests
-        |       |____features
-        |               |____pesquisa.feature
-        |
-        |-----teste1_numeros_multiplos_3_5_15.py
+```
+
+TestBlogAgi
+|
+|-----requeriments.txt
+|-----.venv
+|-----pytest.ini
+|-----.gitgnore
+|-----README.md
+|
+|_____steps
+|       |____assets
+|       |____evidencias
+|       |____conftest.py
+|       |____test_pesquisa.py
+|       |____report.html
+|       
+|-----tests
+|       |____features
+|               |____pesquisa.feature
+|
+|-----teste1_numeros_multiplos_3_5_15.py
+
+
 ```
 
 ## Arquivo 'requeriments.txt'
