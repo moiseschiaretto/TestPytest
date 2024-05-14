@@ -76,6 +76,35 @@ Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o 
 ## Diretórios './tests/features/' 
 Constam os arquivos '*.feature' que contém as 'funcionalidades e os cenários do BDD', **arquivo [pesquisa.feature]**
 
+```
+
+Feature: Pesquisar
+    O usuário realizar duas pesquisas no blog "https://blogdoagi.com.br"
+
+    Background: Acessar o blogdoagi e o botão de pesquisa
+        Given que o usuário esteja no blogdoagi
+        When o usuário clicar no botão de pesquisar
+        And clicar e limpar o campo de pesquisa
+
+    Scenario: Pesquisa válida
+        And digitar o conteúdo existente, texto teste
+        And teclar ENTER
+        Then o blog deverá retornar os resultados referentes ao texto teste informado
+
+    Scenario: Pesquisa inválida
+       And digitar o conteúdo inexistente, texto python
+       And teclar ENTER
+       Then o blog deverá retornar os resultados referentes ao texto python informado
+
+```
+
+- Escreve um cenário que passe **"Green"** e um cenário que falhe **"Red"**.
+
+![18_TDD](https://github.com/moiseschiaretto/TestPytest/assets/84775466/738d2c6e-03f3-4686-a12f-4d8eb2aec225)
+
+![TDD_RGR_IMG_MENOR](https://github.com/moiseschiaretto/TestPytest/assets/84775466/d1b8699e-6a28-4dd5-b9c4-bb62f06e4b77)
+
+
 ## Diretório './steps/' 
 Constam os arquivos 'test_*.py' que contém em cada arquivo os métodos (código) relacionados a 'funcionalidade e os cenários do BDD', **arquivo [test_pesquisa.py]**
 
