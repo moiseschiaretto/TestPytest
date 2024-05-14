@@ -74,7 +74,7 @@ Constam todos os diretórios e os arquivos que devem serem ignorados ao subir o 
 ```
 
 ## Diretórios './tests/features/' 
-Constam os arquivos '*.feature' que contém as 'funcionalidades e os cenários do BDD', **arquivo [pesquisa.feature]**
+Constam os arquivos '*.feature' que contém as **'funcionalidades e os cenários do BDD', arquivo [pesquisa.feature]**
 
 ```
 
