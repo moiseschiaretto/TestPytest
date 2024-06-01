@@ -3,9 +3,9 @@
 - Descrição das explicações de cada item da 'estrutura do projeto "TestBlogAgi" desenvolvido'.
 - Python, Pytest, Playwright
 
-![04_Python](https://github.com/moiseschiaretto/TestPytest/assets/84775466/2138c001-029a-4072-8150-be8bc4055411)
-
-![05_Playwrigth](https://github.com/moiseschiaretto/TestPytest/assets/84775466/a06619a2-ffc6-4213-b808-35fcb44f75fc)
+|QA - Tester      |Python         |Playwright          |Cucumber          |
+|-----------------|---------------|--------------------|------------------|
+| ![14_QA_TESTER](https://github.com/moiseschiaretto/TestPytest/assets/84775466/17b2e3d0-6a8b-4442-aa5d-5d0b295de871) | ![04_Python](https://github.com/moiseschiaretto/TestPytest/assets/84775466/2138c001-029a-4072-8150-be8bc4055411) | ![05_Playwrigth](https://github.com/moiseschiaretto/TestPytest/assets/84775466/a06619a2-ffc6-4213-b808-35fcb44f75fc) | |
 
 
 ## Estrutura do Projeto "TestBlogAgi"
