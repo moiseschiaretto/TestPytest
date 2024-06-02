@@ -4,9 +4,10 @@
 - Python, Pytest, Playwright
 <br>
 
-|QA - Tester      |Python         |Playwright          |Cucumber          |
-|-----------------|---------------|--------------------|------------------|
-| ![14_QA_TESTER](https://github.com/moiseschiaretto/TestPytest/assets/84775466/17b2e3d0-6a8b-4442-aa5d-5d0b295de871) | ![04_Python](https://github.com/moiseschiaretto/TestPytest/assets/84775466/2138c001-029a-4072-8150-be8bc4055411) | ![05_Playwrigth](https://github.com/moiseschiaretto/TestPytest/assets/84775466/a06619a2-ffc6-4213-b808-35fcb44f75fc) | <img width="198" alt="Cucumber" src="https://github.com/moiseschiaretto/TestPytest/assets/84775466/0de732a5-242c-4707-a3a2-94aab6c354b0"> |
+|QA - Tester      |Python         |Playwright          |Cucumber          |IDE PyCharm         |
+|-----------------|---------------|--------------------|------------------|--------------------|
+| ![14_QA_TESTER](https://github.com/moiseschiaretto/TestPytest/assets/84775466/17b2e3d0-6a8b-4442-aa5d-5d0b295de871) | ![04_Python](https://github.com/moiseschiaretto/TestPytest/assets/84775466/2138c001-029a-4072-8150-be8bc4055411) | ![05_Playwrigth](https://github.com/moiseschiaretto/TestPytest/assets/84775466/a06619a2-ffc6-4213-b808-35fcb44f75fc) | <img width="198" alt="Cucumber" src="https://github.com/moiseschiaretto/TestPytest/assets/84775466/0de732a5-242c-4707-a3a2-94aab6c354b0"> | <img width="194" alt="PyCharm" src="https://github.com/moiseschiaretto/TestPytest/assets/84775466/a8eae923-fcb5-4ccf-b516-9ea9fd136945"> |
+
 
 
 <br>
